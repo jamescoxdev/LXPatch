@@ -20,7 +20,125 @@
         height: 30px;
         margin-right: 10px;
     }
+    .settingsIcon {
+        color: #444;
+        cursor: pointer;
+    }
 }
+.settingsContainer {
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 260px;
+    height: 180px;
+    z-index: 99;
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px 3px 7px -3px;
+    &:after, &:before {
+        bottom: 100%;
+        left: 93%;
+        border: solid transparent;
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    &:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-bottom-color: #fff;
+        border-width: 10px;
+        margin-left: -10px;
+    }
+    &:before {
+        border-color: rgba(204, 204, 204, 0);
+        border-bottom-color: #ccc;
+        border-width: 11px;
+        margin-left: -11px;
+    }
+    .settingRow {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0px;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            padding: 5px;
+            border-radius: 2px;
+            border: 1px solid #aaa;
+        }
+    }
+}
+
+
+.switch {
+    box-sizing: content-box !important;
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    margin: 0;
+    touch-action: none;
+}
+
+.switch input {
+    box-sizing: content-box !important;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    box-sizing: content-box !important;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+input:checked + .slider {
+    background-color: #0a0;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #0a0;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 30px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+  
 
 @media print {
     .Header {
