@@ -51,7 +51,7 @@
     width: 40px;
     padding: 5px;
     font-size: 0.9em;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .tc6 {
     display: flex;
@@ -87,5 +87,6 @@
     }
     .tc5 {
         width: 60px !important;
+        justify-content: center;
     }
 }
