@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/LXPatch/static/css/main.c45cc004.chunk.css",
-    "main.js": "/LXPatch/static/js/main.e1e8d54a.chunk.js",
-    "main.js.map": "/LXPatch/static/js/main.e1e8d54a.chunk.js.map",
+    "main.css": "/LXPatch/static/css/main.fcac61b3.chunk.css",
+    "main.js": "/LXPatch/static/js/main.ebef491c.chunk.js",
+    "main.js.map": "/LXPatch/static/js/main.ebef491c.chunk.js.map",
     "runtime-main.js": "/LXPatch/static/js/runtime-main.3c8b214c.js",
     "runtime-main.js.map": "/LXPatch/static/js/runtime-main.3c8b214c.js.map",
-    "static/js/2.72b1afae.chunk.js": "/LXPatch/static/js/2.72b1afae.chunk.js",
-    "static/js/2.72b1afae.chunk.js.map": "/LXPatch/static/js/2.72b1afae.chunk.js.map",
+    "static/js/2.530de2e3.chunk.js": "/LXPatch/static/js/2.530de2e3.chunk.js",
+    "static/js/2.530de2e3.chunk.js.map": "/LXPatch/static/js/2.530de2e3.chunk.js.map",
     "index.html": "/LXPatch/index.html",
-    "static/css/main.c45cc004.chunk.css.map": "/LXPatch/static/css/main.c45cc004.chunk.css.map",
-    "static/js/2.72b1afae.chunk.js.LICENSE.txt": "/LXPatch/static/js/2.72b1afae.chunk.js.LICENSE.txt"
+    "static/css/main.fcac61b3.chunk.css.map": "/LXPatch/static/css/main.fcac61b3.chunk.css.map",
+    "static/js/2.530de2e3.chunk.js.LICENSE.txt": "/LXPatch/static/js/2.530de2e3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3c8b214c.js",
-    "static/js/2.72b1afae.chunk.js",
-    "static/css/main.c45cc004.chunk.css",
-    "static/js/main.e1e8d54a.chunk.js"
+    "static/js/2.530de2e3.chunk.js",
+    "static/css/main.fcac61b3.chunk.css",
+    "static/js/main.ebef491c.chunk.js"
   ]
 }
